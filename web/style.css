@@ -2,7 +2,7 @@
 *{box-sizing:border-box}
 body{margin:0;height:100dvh;overflow:hidden}
 button,a,input,select{-webkit-tap-highlight-color:transparent}
-button{font:inherit;cursor:pointer;border:0;transition:background-color .16s,color .16s,transform .12s}
+button{min-width:40px;min-height:40px;font:inherit;cursor:pointer;border:0;transition:background-color .16s,color .16s,transform .12s}
 button:active{transform:scale(.96)}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 button:disabled{opacity:.4;cursor:wait}
@@ -127,3 +127,5 @@ main{height:calc(100dvh - 70px);display:flex;flex-direction:column-reverse}
 #notice{bottom:105px;font-size:11px}
 }
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+
+.brand,.tools-link,.github-link,.downloads a{min-height:40px;display:flex;align-items:center}.viewport-footer label{min-width:40px;min-height:40px}
