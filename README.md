@@ -6,7 +6,7 @@ Browse 9 Skyborn buildings and 28 interior and exterior props in 3D. Orbit aroun
 
 ## Run locally
 
-The app uses native JavaScript modules and the vendored Three.js runtime. No package installation is required. Use Python 3 and Node.js to download the runtime, build the static app, and serve it:
+The app uses native JavaScript modules and the vendored Three.js runtime. No package installation is required. Use Python 3.9 or newer and Node.js to download the runtime, build the static app, and serve it:
 
 ```sh
 python3 scripts/download-runtime.py
