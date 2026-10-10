@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "assets": [
+    {
+      "id": "CaretakerHut",
+      "name": "Caretaker hut",
+      "category": "Buildings",
+      "filename": "skyborn-building-caretaker-hut.glb",
+      "bytes": 30672420,
+      "sha256": "d411e78ac8b3efda7491518b0c082559f8fb1f223005d6e9a58d188f660de781",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-caretaker-hut.glb"
+    },
+    {
+      "id": "TwoStoreyInn",
+      "name": "Two-storey inn",
+      "category": "Buildings",
+      "filename": "skyborn-building-two-storey-inn.glb",
+      "bytes": 45345644,
+      "sha256": "74dfafc044ce819ecd40956b2654013173f3d5c8d21066bf6d01f7d99a993fbe",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-two-storey-inn.glb"
+    },
+    {
+      "id": "Blacksmith",
+      "name": "Blacksmith",
+      "category": "Buildings",
+      "filename": "skyborn-building-blacksmith.glb",
+      "bytes": 32963328,
+      "sha256": "a703f2dd28d8055c48234a61ed04265bf6a4306ba758d8f8f9630e73d01536fd",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-blacksmith.glb"
+    },
+    {
+      "id": "Stable",
+      "name": "Stable",
+      "category": "Buildings",
+      "filename": "skyborn-building-stable.glb",
+      "bytes": 30440556,
+      "sha256": "e10f3d95999ec1ca388858427ab54f35ef2094074be8535919fe8ca1261d221b",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-stable.glb"
+    },
+    {
+      "id": "HerbalistShop",
+      "name": "Herbalist shop",
+      "category": "Buildings",
+      "filename": "skyborn-building-herbalist-shop.glb",
+      "bytes": 30659688,
+      "sha256": "bb827e121f361ecb96a1463e7ae79ad0db6af0c0b5143b6077a0a2371c350742",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-herbalist-shop.glb"
+    },
+    {
+      "id": "Storehouse",
+      "name": "Storehouse",
+      "category": "Buildings",
+      "filename": "skyborn-building-storehouse.glb",
+      "bytes": 32413388,
+      "sha256": "bfde5a5f9ec3063636c04508b08c6b30a4c02fbe2e81037be625b49d484166a0",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-storehouse.glb"
+    },
+    {
+      "id": "Bridgehaven_B05",
+      "name": "Watchhouse",
+      "category": "Buildings",
+      "filename": "skyborn-building-bridgehaven-b05.glb",
+      "bytes": 25447988,
+      "sha256": "a29c856f870d7c5f4b19315376bbcee1655680173efd564b294c9f4ec8cbfe01",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-bridgehaven-b05.glb"
+    },
+    {
+      "id": "Bridgehaven_B09",
+      "name": "Shore store",
+      "category": "Buildings",
+      "filename": "skyborn-building-bridgehaven-b09.glb",
+      "bytes": 21987868,
+      "sha256": "2c4539103cc8f295c7ca3372869b2a48b7b9f9ca369af87aa7a8de3787f3cfc8",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-bridgehaven-b09.glb"
+    },
+    {
+      "id": "Bridgehaven_B10",
+      "name": "Bell pavilion",
+      "category": "Buildings",
+      "filename": "skyborn-building-bridgehaven-b10.glb",
+      "bytes": 17818168,
+      "sha256": "910327e205b7e29d2c78bf53eee0177fa48c3bde8ac4b62516360bcafaea2d31",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-building-bridgehaven-b10.glb"
+    },
+    {
+      "id": "ext-lantern",
+      "name": "Lantern",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-lantern.glb",
+      "bytes": 3287800,
+      "sha256": "4b92145eee05ebe293751e0c7ead08d8bf4a0c555e216f916ab3af2fa8ab014e",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-lantern.glb"
+    },
+    {
+      "id": "ext-barrel",
+      "name": "Barrel",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-barrel.glb",
+      "bytes": 3416688,
+      "sha256": "7f6b9d1c807347a8f67eebf579996930b8ac47fd7b20447e7b8378e72aff4e57",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-barrel.glb"
+    },
+    {
+      "id": "ext-log-pile",
+      "name": "Log pile",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-log-pile.glb",
+      "bytes": 5156956,
+      "sha256": "6afa796b36196648f73f1b4c3a316b0e41d4c24996026b1be17ed4892dcb1b8c",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-log-pile.glb"
+    },
+    {
+      "id": "ext-chopping-block-axe",
+      "name": "Chopping block and axe",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-chopping-block-axe.glb",
+      "bytes": 4842336,
+      "sha256": "0f890bd8e2105bc186735b3e90130913616a9c7db61c3ca013b82b170242c550",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-chopping-block-axe.glb"
+    },
+    {
+      "id": "ext-open-crate",
+      "name": "Open crate",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-open-crate.glb",
+      "bytes": 4193272,
+      "sha256": "98dad5e9e476c4b2abaad1d6bc2566915c370f6f8b7dd7a2ba39c071b668b68b",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-open-crate.glb"
+    },
+    {
+      "id": "ext-outdoor-table",
+      "name": "Outdoor table",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-outdoor-table.glb",
+      "bytes": 4143792,
+      "sha256": "634d7b2e53ce539befec70447ecf564d5f371adf1e4638848e8049c659962196",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-outdoor-table.glb"
+    },
+    {
+      "id": "ext-flour-sack",
+      "name": "Flour sack",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-flour-sack.glb",
+      "bytes": 5317740,
+      "sha256": "906b9da7a2d27c9af394afb973911c0000e2c334f4afed6bb0c7ff08c875c997",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-flour-sack.glb"
+    },
+    {
+      "id": "ext-fence-01",
+      "name": "Short fence",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-fence-01.glb",
+      "bytes": 3521312,
+      "sha256": "5d63bfa6ff1f7ea69fe9ec5439d79da220ee6a576535f0d431638421bc72b932",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-fence-01.glb"
+    },
+    {
+      "id": "ext-fence-02",
+      "name": "Tall fence",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-fence-02.glb",
+      "bytes": 2739476,
+      "sha256": "662043d1ecf9a269e892ba4e2086490730e351235acc29cafb9464a4e4dd2c1e",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-fence-02.glb"
+    },
+    {
+      "id": "ext-fence-03",
+      "name": "Two-bay fence",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-fence-03.glb",
+      "bytes": 3819008,
+      "sha256": "b062aaabec06d3c96f6d842c8fa2ec1f7fa63676ad6ac5446cfd552de9f5fa88",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-fence-03.glb"
+    },
+    {
+      "id": "ext-fence-04",
+      "name": "Corner fence",
+      "category": "Exterior",
+      "filename": "skyborn-prop-ext-fence-04.glb",
+      "bytes": 3433796,
+      "sha256": "c2937be24a4ceb4bfd1f1a00a73ac14351b0e81750dba7e5d4a7ced291a8d97a",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-ext-fence-04.glb"
+    },
+    {
+      "id": "int-bed",
+      "name": "Bed",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-bed.glb",
+      "bytes": 49337988,
+      "sha256": "b3933e54da8e0652345100103eaf5012122a4ef621b92eb8be2159e9769e4d99",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-bed.glb"
+    },
+    {
+      "id": "int-stool",
+      "name": "Stool",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-stool.glb",
+      "bytes": 3801172,
+      "sha256": "17dc5d33b4415db10c99d0123e9661f1cbbdaef15a9f4300b0195e028bde4b7e",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-stool.glb"
+    },
+    {
+      "id": "int-table",
+      "name": "Indoor table",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-table.glb",
+      "bytes": 4172936,
+      "sha256": "b17d20e5bbdd5330adf6956053addb3d0b75de847aeb7b17d541ca51e74b73d8",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-table.glb"
+    },
+    {
+      "id": "int-bookshelf",
+      "name": "Bookshelf",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-bookshelf.glb",
+      "bytes": 12748856,
+      "sha256": "a28458bcbc0fd0edcc6653f2378db66f844f8a29148f3a866177580a2048e08e",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-bookshelf.glb"
+    },
+    {
+      "id": "int-wall-shelf",
+      "name": "Wall shelf",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-wall-shelf.glb",
+      "bytes": 4079028,
+      "sha256": "47afe2a7c721eb328aa6ff55a11385df7511e6cf9dc6383e72d240821fd5c3df",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-wall-shelf.glb"
+    },
+    {
+      "id": "int-chest",
+      "name": "Chest",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-chest.glb",
+      "bytes": 3943600,
+      "sha256": "ddca879cdd43796d0f8c8b5b14a96edb7d2f8d3481ae74bbcfb8e3488f2c6cfa",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-chest.glb"
+    },
+    {
+      "id": "int-rug-woven",
+      "name": "Patterned rug",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-rug-woven.glb",
+      "bytes": 12507092,
+      "sha256": "9c5a24fd9daeb0b12bc4fb29fb683363135f9c575bef7595977f4d553f1577e9",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-rug-woven.glb"
+    },
+    {
+      "id": "int-rug-round",
+      "name": "Round braided rug",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-rug-round.glb",
+      "bytes": 12161476,
+      "sha256": "521b1c972216f240ad5265ad3f5d2ae533babd336a8bf1c0b642f1a154cd942d",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-rug-round.glb"
+    },
+    {
+      "id": "int-lantern",
+      "name": "Lantern",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-lantern.glb",
+      "bytes": 3290192,
+      "sha256": "934daae753ded23e72a97b3d3540063a17da7d78e7169ac22aa101dc5758c1e8",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-lantern.glb"
+    },
+    {
+      "id": "int-chandelier",
+      "name": "Chandelier",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-chandelier.glb",
+      "bytes": 3086072,
+      "sha256": "43de3360966bbe2b80a2f904dfcb7ecf715041025010e4fa0c3f8c2e697f6d01",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-chandelier.glb"
+    },
+    {
+      "id": "int-pottery-small",
+      "name": "Small clay pot",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-pottery-small.glb",
+      "bytes": 3186396,
+      "sha256": "6a030cf246690d5d7b40371320aa3db0e354953b6b3a97715a23cd3d24573a6c",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-pottery-small.glb"
+    },
+    {
+      "id": "int-pottery-medium",
+      "name": "Clay pitcher",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-pottery-medium.glb",
+      "bytes": 3559184,
+      "sha256": "527bdf956f5b9f2bc70f705ab5138860249fd94b6167d8a86f3673a5036c78cc",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-pottery-medium.glb"
+    },
+    {
+      "id": "int-pottery-large",
+      "name": "Large storage pot",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-pottery-large.glb",
+      "bytes": 3460644,
+      "sha256": "2bae8a4e5dac9b62cf076af13628ae6b878c816798e63b96899a6a322b485e95",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-pottery-large.glb"
+    },
+    {
+      "id": "int-candle",
+      "name": "Candle",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-candle.glb",
+      "bytes": 2578772,
+      "sha256": "0b2232bbc7dfd545d60b19cab3e444db0ec037f23d91659b70e1fc5b4de89d1b",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-candle.glb"
+    },
+    {
+      "id": "int-bedding",
+      "name": "Bedding",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-bedding.glb",
+      "bytes": 49490928,
+      "sha256": "7b42e0fbfd332a934248a6b17f5374d7969ed0b5799c0bbe2469e9ac7f0fb398",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-bedding.glb"
+    },
+    {
+      "id": "int-books",
+      "name": "Books",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-books.glb",
+      "bytes": 16063912,
+      "sha256": "4b436418ebe12bf6c085df0635b18c1241fdea2a19c735d9b93519538c640dc0",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-books.glb"
+    },
+    {
+      "id": "int-potted-plant",
+      "name": "Potted plant",
+      "category": "Interior",
+      "filename": "skyborn-prop-int-potted-plant.glb",
+      "bytes": 3539320,
+      "sha256": "e6ef004cb0e4f4ab3e3b753ada5f83254dc44426f1c48b3f1beedbcd48db388b",
+      "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-prop-int-potted-plant.glb"
+    }
+  ],
+  "pack": {
+    "filename": "skyborn-buildings-and-props.zip",
+    "bytes": 364353298,
+    "sha256": "6efbfd91a737199b235185a8db7cd385742bf3c86de00d82939f0f5a42bc4706",
+    "url": "https://github.com/holokat/building-studio/releases/download/v1.0.0/skyborn-buildings-and-props.zip"
+  },
+  "notes": [
+    "Building GLBs preserve browser geometry, transforms, UV sets, per-instance shade values, material parameters, and embedded source textures.",
+    "Standard glTF viewers render the source base PBR map and normal map. Browser-specific paint and weathering composition data is retained in material extras and requires a compatible renderer for the full studio appearance."
+  ]
+}

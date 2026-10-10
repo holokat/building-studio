@@ -1,0 +1,14 @@
+web/assets/
+web/previews/
+web/library-previews/
+web/vendor/
+dist/
+/index.html
+/style.css
+/src/
+/web/downloads.json
+node_modules/
+work/
+__pycache__/
+.DS_Store
+/web/building-studio-icons.js
