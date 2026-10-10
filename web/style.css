@@ -90,9 +90,9 @@ dd{margin:0}
 .brand{font-size:10px;letter-spacing:.11em}
 .brand-sub{font-size:10px}
 .mode-switch button{padding:0 13px;font-size:12px}
-.quiet{font-size:0}
+.quiet{font-size:11px;padding:0 6px}
 main{height:calc(100dvh - 70px);display:flex;flex-direction:column-reverse}
-.library{padding:8px 10px 10px;flex:0 0 190px;overflow:hidden}
+.library{padding:8px 10px 10px;flex:0 0 280px;overflow:hidden}
 .library-tabs{min-width:220px;margin:0 0 8px}
 .library-tabs button{min-height:40px}
 .section-title,.muted,.library-foot{display:none}.downloads{display:flex;flex-wrap:wrap;gap:8px 14px;margin:0;padding:8px 4px;border:0}
