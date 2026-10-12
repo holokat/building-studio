@@ -129,3 +129,5 @@ main{height:calc(100dvh - 70px);display:flex;flex-direction:column-reverse}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
 
 .brand,.tools-link,.github-link,.downloads a{min-height:40px;display:flex;align-items:center}.viewport-footer label{min-width:40px;min-height:40px}
+
+#shutter-control{position:absolute;right:22px;top:112px;display:flex;flex-direction:column;gap:6px;align-items:flex-end}#shutter-control[hidden]{display:none}#shutter-toggle{min-height:42px;background:#e6e1d7;color:#28312d;padding:10px 16px;border-radius:8px}#shutter-detail{background:#e6e1d7;color:#28312d;padding:5px 9px;border-radius:4px;font-size:12px}

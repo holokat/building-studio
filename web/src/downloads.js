@@ -42,4 +42,11 @@ export class DownloadLibrary {
       this.status.textContent = 'CC0 asset';
     } else { this.selectedLink.hidden = true; this.status.textContent = 'CC0 assets'; }
   }
+
+  selectExternal(asset) {
+    if (!asset?.url) { this.select(); return; }
+    this.selectedLink.href = asset.url; this.selectedLink.hidden = false;
+    this.selectedLink.textContent = `Download selected asset${asset.bytes ? ` (${humanBytes(asset.bytes)})` : ''}`;
+    this.status.textContent = 'CC0 asset';
+  }
 }

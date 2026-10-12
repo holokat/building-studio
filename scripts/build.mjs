@@ -7,7 +7,7 @@ export const PAGES_PART_SIZE = 20 * 1024 * 1024;
 function walk(root, files = []) {
   for (const entry of readdirSync(root, { withFileTypes: true })) {
     const path = join(root, entry.name);
-    if (entry.isDirectory()) walk(path, files); else if (entry.isFile()) files.push(path);
+    if (entry.isDirectory()) walk(path, files); else if (statSync(path).isFile()) files.push(path);
   }
   return files;
 }
@@ -47,7 +47,7 @@ export function splitLargeAssets({ assets, destination = assets, partSize = PAGE
   return output;
 }
 
-function rewriteManifests(assets, replacements) {
+export function rewriteManifests(assets, replacements) {
   const buildingManifest = join(assets, 'manifest.json');
   if (existsSync(buildingManifest)) {
     const manifest = removePrivateMetadata(JSON.parse(readFileSync(buildingManifest, 'utf8')));
@@ -63,6 +63,17 @@ function rewriteManifests(assets, replacements) {
     }
     writeFileSync(propsManifest, `${JSON.stringify(manifest)}\n`);
   }
+  const explorationManifest = join(assets, 'exploration', 'manifest.json');
+  if (existsSync(explorationManifest)) {
+    const manifest = removePrivateMetadata(JSON.parse(readFileSync(explorationManifest, 'utf8')));
+    for (const building of manifest.buildings || []) {
+      for (const field of ['model', 'collision']) {
+        const key = `exploration/${building[field]}`;
+        if (replacements.has(key)) building[field] = replacements.get(key).replace(/^exploration\//, '');
+      }
+    }
+    writeFileSync(explorationManifest, `${JSON.stringify(manifest)}\n`);
+  }
 }
 
 export function buildBuildingStudio({ source = resolve(fileURLToPath(new URL('../', import.meta.url))), output = join(source, 'dist') } = {}) {
@@ -70,7 +81,7 @@ export function buildBuildingStudio({ source = resolve(fileURLToPath(new URL('..
   if (!existsSync(join(runtime, 'assets'))) throw new Error('Expected runtime assets under web/assets. Run scripts/download-runtime.py first.');
   mkdirSync(output, { recursive: true });
   cpSync(runtime, output, {
-    recursive: true,
+    recursive: true, dereference: true,
     filter(path) {
       const name = path.split('/').pop();
       if (['.git', 'dist', 'node_modules', 'export-report.json'].includes(name)) return false;
